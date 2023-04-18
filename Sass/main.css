@@ -1,0 +1,36 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  min-height: 100vh;
+  width: 100vw;
+  gap: 2rem;
+}
+main .carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 77.5rem;
+  overflow-x: hidden;
+  padding: auto 50px;
+}
+main .carousel img {
+  height: 31.25rem;
+  width: 7.8125rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.625rem;
+  transition: all 0.1s ease;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+main .carousel img:hover {
+  width: 9.8125rem;
+  filter: grayscale(0%);
+}
+main .carousel .active#carousel-img {
+  width: 31.25rem;
+}/*# sourceMappingURL=main.css.map */
