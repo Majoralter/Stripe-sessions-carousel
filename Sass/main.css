@@ -28,6 +28,7 @@ main .carousel img {
   cursor: pointer;
 }
 main .carousel img:hover {
+  width: 8.8125rem;
   filter: grayscale(0%);
 }
 main .carousel .active#carousel-img {
