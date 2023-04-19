@@ -30,7 +30,7 @@ main .carousel img {
   width: 5.8125rem;
   object-fit: cover;
   border-radius: 0.625rem;
-  transition: all 0.1s ease-in-out;
+  transition: width 0.3s ease-in-out;
   filter: grayscale(100%);
   cursor: pointer;
 }
