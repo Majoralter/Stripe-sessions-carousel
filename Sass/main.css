@@ -1,3 +1,11 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -18,19 +26,20 @@ main .carousel {
   padding: auto 50px;
 }
 main .carousel img {
-  height: 31.25rem;
-  width: 7.8125rem;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 35.25rem;
+  width: 5.8125rem;
+  object-fit: cover;
   border-radius: 0.625rem;
   transition: all 0.1s ease-in-out;
   filter: grayscale(100%);
   cursor: pointer;
 }
 main .carousel img:hover {
-  width: 8.8125rem;
+  width: 6.8125rem;
   filter: grayscale(0%);
 }
 main .carousel .active#carousel-img {
   width: 31.25rem;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
